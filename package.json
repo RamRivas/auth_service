@@ -1,0 +1,29 @@
+{
+  "name": "auth_service",
+  "version": "1.0.0",
+  "description": "Authentication Web Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamRivas/auth_service.git"
+  },
+  "keywords": [
+    "Users",
+    "JWT",
+    "Auth",
+    "Login",
+    "Password",
+    "Logout",
+    "Token",
+    "Session"
+  ],
+  "author": "Benjamín Ramírez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamRivas/auth_service/issues"
+  },
+  "homepage": "https://github.com/RamRivas/auth_service#readme"
+}
