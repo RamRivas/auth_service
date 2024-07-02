@@ -4,7 +4,7 @@ declare global {
     namespace NodeJS {
         interface ProcessEnv {
             PORT: string;
-            DEBUG_MODE: boolean;
+            CTX: string;
             HOST: string;
             USER: string;
             PASSWORD: string;

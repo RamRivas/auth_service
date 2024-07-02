@@ -1,11 +1,11 @@
 import express from 'express';
 import morgan from 'morgan';
-import { DEBUG_MODE } from './config';
+import { CTX } from './config';
 
 export const main = () => {
     const app = express();
     
-    DEBUG_MODE === true && app.use( morgan( 'dev' ) );
+    CTX === 'dev' && app.use( morgan( 'dev' ) );
     app.use( express.json() );
     app.use( express.urlencoded( { extended: true } ) );
     

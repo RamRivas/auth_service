@@ -4,7 +4,7 @@ dotenv.config();
 
 export const {
     PORT,
-    DEBUG_MODE,
+    CTX,
     HOST,
     USER,
     PASSWORD,
